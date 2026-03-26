@@ -22,10 +22,10 @@
 #     print("* " ,end= " ")
 #   print('')  
 
-for i in range(1, 6):
-    for j in range(1, i + 1):
-        print(" " * (5 - j) + "* " * j)
-    #  print(" ")   
+# for i in range(1, 6):
+#     for j in range(1, i + 1):
+#         print(" " * (5 - j) + "* " * j)
+#     #  print(" ")   
 
 # for i in range (1,6):
 #     for j in range(1,6):
@@ -114,9 +114,50 @@ for i in range(1, 6):
 #         print(k, end=" ")
 #         k += 1
 #     print()
-n = 5
+# n = 5
 
-# Upper Pyramid
-for i in range(1, n + 1):
-    print(" " * (n - i) + "* " * i)
-print(" ")    
+# # Upper Pyramid
+# for i in range(1, n + 1):
+#     print(" " * (n - i) + "* " * i)
+# print(" ")    
+
+# n=int(input('enter a num'))
+# for i in range(1,n):
+#     count=0
+#     for j in range(1,i+1):
+#         if i%j==0:
+#             count+=1
+#     if count==2:
+#         print(i,'is a prime number')
+
+# print('-----------------------------------------')
+# for i in range(1,101):
+#     count=0
+#     for j in range(1,i+1):
+#         if i%j==0:
+#             count+=1
+#     if count==2:
+#         print(i,'is a prime number')      
+
+
+
+# text = "HAPPY"
+# result = ""
+
+# for ch in text:
+#     if ch not in result:
+#         result += ch
+
+# print(result)
+
+
+year=int(input('Enter the Year :'))
+if year%100==0:
+    if year%400==0:
+        print(year,'is a leap year')
+    else:
+        print(year,'is not a leap year')
+elif year%4==0:
+    print(year,'is a leap year')
+else:
+    print(year,'is not a leap year')        
