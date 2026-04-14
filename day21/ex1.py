@@ -4,7 +4,7 @@ conn=sqlite3.Connection('univ.db')
 
 cursor=conn.cursor()
 
-cursor.execute('create table Student(id integer primary key,name text)')
+cursor.execute('insert into Student values(1,\'james\'),(2,\'jason\'),(3,\'sam\')')
 
 conn.commit()
 

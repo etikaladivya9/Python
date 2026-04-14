@@ -1,4 +1,4 @@
-name=input('enter your name')
+haname=input('enter your name')
 username=input('enter user name')
 password=input('enter password')
 conformpassword=input('enter your conformpassword')
